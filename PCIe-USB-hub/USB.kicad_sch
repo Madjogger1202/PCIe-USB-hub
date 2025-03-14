@@ -1,0 +1,2673 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a25dcd2c-3180-4d56-8cb9-66e6ba40af71")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector:USB3_A_Stacked"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB3_A_Stacked"
+				(at 10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 3.0 A connector, stacked"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB3?A*Stacked*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB3_A_Stacked_0_0"
+				(rectangle
+					(start -9.144 8.636)
+					(end -5.08 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.874 7.366)
+					(end -6.604 -2.286)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.35 5.334)
+					(end -6.096 4.572)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 3.556)
+					(end -6.096 2.794)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 1.778)
+					(end -6.096 1.016)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 0)
+					(end -6.096 -0.762)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.794 -15.24)
+					(end -2.286 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 -15.24)
+					(end 0.254 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 5.334)
+					(end 9.144 4.826)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -9.906)
+					(end 9.144 -10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB3_A_Stacked_0_1"
+				(rectangle
+					(start -10.16 13.97)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB3_A_Stacked_1_1"
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "DRAIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SSRX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SSRX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SSTX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SSTX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB3_A_Stacked_2_1"
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "DRAIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SSRX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SSRX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SSTX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SSTX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 275.59 213.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d88d24d-7e25-4229-a87f-f7aca5c1e274")
+		(property "Reference" "J7"
+			(at 275.59 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 275.59 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 279.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0f")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7d")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11f")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc3")
+		)
+		(pin "10"
+			(uuid "9a84be1c-ae72-4601-8bbb-4b7a88d69e77")
+		)
+		(pin "11"
+			(uuid "7a34baf8-e108-48a7-ab45-f4e6142067dc")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e6")
+		)
+		(pin "17"
+			(uuid "c1a91349-2bcb-4bb8-b906-e097aa4cb39e")
+		)
+		(pin "15"
+			(uuid "e89df164-d7f5-4d17-afa5-e7c30df5f275")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398d")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c85")
+		)
+		(pin "13"
+			(uuid "90b9a55e-6d79-482a-ba7e-3fc2654cc047")
+		)
+		(pin "19"
+			(uuid "d428e436-0509-44e1-a2b9-7d8b23648e99")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf5")
+		)
+		(pin "12"
+			(uuid "c62142d5-0699-4c10-9bdd-ed18df54e408")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbf")
+		)
+		(pin "18"
+			(uuid "3477322a-f602-4e70-9ede-84e80c6dd0bc")
+		)
+		(pin "16"
+			(uuid "3f2cd8ae-c7d2-4217-9823-8ea4b7d9aa69")
+		)
+		(pin "14"
+			(uuid "480ea2d2-2813-434c-9392-1b83b126cca8")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 138.43 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b81f960-ab40-42f4-83a9-9f78ba59a343")
+		(property "Reference" "J4"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0c")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7a")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11c")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc0")
+		)
+		(pin "10"
+			(uuid "cdcc8a6d-a90f-4783-8aae-57d4591d182e")
+		)
+		(pin "11"
+			(uuid "097de3ca-7a60-44f0-8bd3-f951bfb81e5f")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e3")
+		)
+		(pin "17"
+			(uuid "406f4a9e-05cf-4aa3-ae22-e6a71b376c38")
+		)
+		(pin "15"
+			(uuid "2ad548ff-442d-44ef-9faf-3c50707aec87")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398a")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c82")
+		)
+		(pin "13"
+			(uuid "11add5d1-315e-4ee0-af66-cc5e2d7a1de0")
+		)
+		(pin "19"
+			(uuid "14993032-81cf-4a41-9116-73680469bc3a")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf2")
+		)
+		(pin "12"
+			(uuid "abf8307a-e9e6-4de4-85b4-58e4ed5a494f")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbc")
+		)
+		(pin "18"
+			(uuid "385e200e-73fd-48db-a03b-35b4443149ae")
+		)
+		(pin "16"
+			(uuid "bb60b66e-1dda-44e0-b120-d4841dfbc512")
+		)
+		(pin "14"
+			(uuid "bd4525b4-3222-4d7a-9d77-cd4e5d6bea1e")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 60.96 213.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ddbbc0-bc29-4d11-8d4b-48ac0d13d08c")
+		(property "Reference" "J3"
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 60.96 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 64.77 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 60.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0c")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7a")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11c")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc0")
+		)
+		(pin "10"
+			(uuid "2fe6f018-09b2-4f0e-8d48-7a8cbb303526")
+		)
+		(pin "11"
+			(uuid "83e7214a-3ffb-4022-8568-80c635b629f2")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e3")
+		)
+		(pin "17"
+			(uuid "96d79253-e51e-40e8-a478-7fa34d177f7e")
+		)
+		(pin "15"
+			(uuid "0e203ad6-c202-4885-829d-7edb69b732fc")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398a")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c82")
+		)
+		(pin "13"
+			(uuid "108dafe7-a807-4d9b-b908-985feae57603")
+		)
+		(pin "19"
+			(uuid "75bb9137-97c5-4c42-9706-2e30dab3ca92")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf2")
+		)
+		(pin "12"
+			(uuid "06c17654-0e9e-4872-beb2-77f796d4502d")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbc")
+		)
+		(pin "18"
+			(uuid "5dc46c6f-2e40-46a7-8460-75a0ac1a8a9f")
+		)
+		(pin "16"
+			(uuid "aa6777aa-71cd-4f40-8ca4-5de7d2215e41")
+		)
+		(pin "14"
+			(uuid "4e42719f-8e69-4664-95ea-62659b535b52")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 275.59 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4724ce02-70ce-4d56-8205-adfb422c2d6d")
+		(property "Reference" "J6"
+			(at 275.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 275.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0c")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7a")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11c")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc0")
+		)
+		(pin "10"
+			(uuid "b5c0db42-ff0f-4a01-92c8-e71f1bf1ca11")
+		)
+		(pin "11"
+			(uuid "0f4ae725-4cca-4eac-98e6-e93d8e78dfd8")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e3")
+		)
+		(pin "17"
+			(uuid "b464603b-9dcd-40f5-9720-11001b880830")
+		)
+		(pin "15"
+			(uuid "4a6917b2-88c3-4de3-8e89-7ac17225b594")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398a")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c82")
+		)
+		(pin "13"
+			(uuid "39ef1c30-f840-4841-90a5-529a1f92eb3b")
+		)
+		(pin "19"
+			(uuid "69c66c6e-e76f-4f2c-b39a-409dfda05564")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf2")
+		)
+		(pin "12"
+			(uuid "0d1dd31d-57cf-4641-be62-8f5dea99a685")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbc")
+		)
+		(pin "18"
+			(uuid "fc950f7e-cc7c-4352-9f67-ba4a797a5eb1")
+		)
+		(pin "16"
+			(uuid "e827ee0b-a1b0-497f-af87-9a70927e3e7a")
+		)
+		(pin "14"
+			(uuid "2dec5823-bc60-4f5d-92dd-9d7d430ec2a7")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 138.43 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54cfcf53-8504-4825-a24e-e58442de1715")
+		(property "Reference" "J5"
+			(at 138.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 138.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "9969d96c-b0cf-4965-8523-b27fafa23145")
+		)
+		(pin "3"
+			(uuid "c407a0e8-2222-402e-8b19-e1ef3e496ce5")
+		)
+		(pin "7"
+			(uuid "d03d4ca4-2b21-4623-994f-bbadf02039f3")
+		)
+		(pin "8"
+			(uuid "5f9d0124-1c2c-42fb-abdd-720cb0e86258")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4df")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f1")
+		)
+		(pin "6"
+			(uuid "e64636a3-0eae-4c90-b39c-72a2088413a0")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba0")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afe")
+		)
+		(pin "1"
+			(uuid "a4e80bd4-7fe6-4bd5-9dd8-7e58c3261af0")
+		)
+		(pin "5"
+			(uuid "3a5f51e7-b4eb-4904-abce-57c3bfac284f")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448ded")
+		)
+		(pin "19"
+			(uuid "b050dd84-1b3b-4576-b77b-9d1695dabd6c")
+		)
+		(pin "4"
+			(uuid "1928e053-a2e8-4c89-8c56-f4940ef21f94")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa2")
+		)
+		(pin "2"
+			(uuid "aaa60b7f-e8b3-4257-894b-cb51971fd1a8")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c42")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce07")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd80")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 353.06 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b74e06f-d302-4b2a-b9e0-6506b3874aa5")
+		(property "Reference" "J9"
+			(at 353.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 353.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 356.87 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 353.06 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "5a54d816-e882-49b6-9c1f-7385f7e0fac4")
+		)
+		(pin "3"
+			(uuid "f952c2c9-e6ab-42d2-85b8-4e6f1246012e")
+		)
+		(pin "7"
+			(uuid "2f865fc0-e862-4377-88e3-050e9a4a5221")
+		)
+		(pin "8"
+			(uuid "bfedcf7a-94d0-4221-9598-d300d1840695")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e0")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f2")
+		)
+		(pin "6"
+			(uuid "dd5559cf-bc57-4eba-a2ea-62815094676f")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba1")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1aff")
+		)
+		(pin "1"
+			(uuid "eb9ce093-08ae-4116-a7bd-1e3290e67d61")
+		)
+		(pin "5"
+			(uuid "efb84525-540e-4311-b8c4-3ac6cfee5af7")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448dee")
+		)
+		(pin "19"
+			(uuid "17c8ad5f-29d1-4566-bddc-ac6d5ad26dad")
+		)
+		(pin "4"
+			(uuid "472be743-6d4a-497a-ab85-ef5f6fef4083")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa3")
+		)
+		(pin "2"
+			(uuid "29c55340-b98e-4bc6-89f0-860db53fbb61")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c43")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce08")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd81")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 138.43 213.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f64d3f5-3233-4d8e-9589-bf76a3806059")
+		(property "Reference" "J5"
+			(at 138.43 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 138.43 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 142.24 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 138.43 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0c")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7a")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11c")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc0")
+		)
+		(pin "10"
+			(uuid "be1237af-67bb-428b-8a20-de2650611cef")
+		)
+		(pin "11"
+			(uuid "2a39c18f-fbe5-43c1-8d50-c57ac6f9ccfb")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e3")
+		)
+		(pin "17"
+			(uuid "818ccea1-34d7-4f15-9460-7be25f712c8d")
+		)
+		(pin "15"
+			(uuid "9dbef398-40e0-457c-964e-ed27abd15a8d")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398a")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c82")
+		)
+		(pin "13"
+			(uuid "a74c02b4-00b0-4692-9d65-d118a13114f6")
+		)
+		(pin "19"
+			(uuid "33aa1234-e01c-483f-a4bc-5da07b0a10e2")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf2")
+		)
+		(pin "12"
+			(uuid "f52c543b-0620-4891-90d5-c83862794f08")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbc")
+		)
+		(pin "18"
+			(uuid "1c37516b-7437-4279-bfdc-95f31dfd26e5")
+		)
+		(pin "16"
+			(uuid "705d0116-2640-4c84-86b9-b095bb42b4ba")
+		)
+		(pin "14"
+			(uuid "1238525f-d1e4-47c4-adfc-379bdd770bbc")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 275.59 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7047346e-039c-4859-83b6-8f0f07300ca2")
+		(property "Reference" "J6"
+			(at 275.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 275.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 279.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 275.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "9e86767a-b74d-4f0c-a7e5-d2412abf9020")
+		)
+		(pin "3"
+			(uuid "7abb58f4-fe86-43df-8b73-b177d2b4b326")
+		)
+		(pin "7"
+			(uuid "30f367b3-7a17-4196-82c4-71402f366503")
+		)
+		(pin "8"
+			(uuid "2095c5b1-a49f-4915-a88d-9a30e5676c39")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4df")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f1")
+		)
+		(pin "6"
+			(uuid "26eeedb7-8ff6-43f6-8238-50c7ec7aa625")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba0")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afe")
+		)
+		(pin "1"
+			(uuid "d39006b2-5a2c-4ae8-a150-e16e6249b1da")
+		)
+		(pin "5"
+			(uuid "e70e3c25-edc2-4cd1-a1e3-74d6afbca04f")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448ded")
+		)
+		(pin "19"
+			(uuid "d4c142bc-867f-4f30-bffa-b8c55486f645")
+		)
+		(pin "4"
+			(uuid "98940447-08f5-45e0-b408-f378a231a065")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa2")
+		)
+		(pin "2"
+			(uuid "1a742ccc-4a85-4de0-887b-22d411639afa")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c42")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce07")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd80")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 60.96 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d107f2-15bc-4fb8-9375-ad8afc6b43b2")
+		(property "Reference" "J2"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0c")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7a")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11c")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc0")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4de")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f0")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e3")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07b9f")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afd")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398a")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c82")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448dec")
+		)
+		(pin "19"
+			(uuid "e7d15158-282d-4819-ae24-db982a7d78bb")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf2")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa1")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbc")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c41")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce06")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd7f")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 275.59 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c26339-45bc-4de9-b11c-c840c9f232ba")
+		(property "Reference" "J7"
+			(at 275.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 275.59 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 279.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 275.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "73514d02-991d-4c88-9c04-1e9ad6abb980")
+		)
+		(pin "3"
+			(uuid "8000533c-b9a6-41cb-9e1e-d071eaafe83a")
+		)
+		(pin "7"
+			(uuid "3e17fbe7-c588-4421-b506-af90aea85734")
+		)
+		(pin "8"
+			(uuid "911aa602-451b-4e09-a378-e1164f3a5fc2")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e2")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f4")
+		)
+		(pin "6"
+			(uuid "c516eaf7-dadf-4d2b-9ecb-7a3e6bf95fd7")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba3")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1b01")
+		)
+		(pin "1"
+			(uuid "51c2ffc8-f995-4702-b8d4-16a9d77e6f2c")
+		)
+		(pin "5"
+			(uuid "32c3e5e5-016b-46ff-815a-6f14d180431c")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448df0")
+		)
+		(pin "19"
+			(uuid "0ed6e79d-54a8-43d9-a5d0-26d60caffe5e")
+		)
+		(pin "4"
+			(uuid "8b2caef2-f34e-4545-b19f-1b564c5367b5")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa5")
+		)
+		(pin "2"
+			(uuid "a810c291-84fa-4ca3-84cd-82ecb243b6b0")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c45")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce0a")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd83")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 353.06 213.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b51416-0efe-4afb-acdb-669e9e8c002a")
+		(property "Reference" "J9"
+			(at 353.06 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 353.06 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 356.87 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 353.06 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0e")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7c")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11e")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc2")
+		)
+		(pin "10"
+			(uuid "027b36c6-7525-47c3-a27c-cd2e302aaac6")
+		)
+		(pin "11"
+			(uuid "e4cc89bc-3536-4cc8-8b3e-40cc79a7d66b")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e5")
+		)
+		(pin "17"
+			(uuid "61137509-c8d6-48a8-b764-33a3bed2fd16")
+		)
+		(pin "15"
+			(uuid "0c8341a0-a2cb-4453-ae1e-8a6c31506bd9")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398c")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c84")
+		)
+		(pin "13"
+			(uuid "c12661e2-4486-4157-ac99-a1c423a1fb35")
+		)
+		(pin "19"
+			(uuid "6c890022-69d2-4d1c-949a-16d70d070550")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf4")
+		)
+		(pin "12"
+			(uuid "c8849500-5e91-4d38-8fe6-dc08880dce0b")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbe")
+		)
+		(pin "18"
+			(uuid "af1def41-e5d0-49c2-8c60-205726c73490")
+		)
+		(pin "16"
+			(uuid "2fde930c-d73e-43c1-b1a8-d1cb4309a435")
+		)
+		(pin "14"
+			(uuid "cdb682e0-0287-4a5a-8a24-38eafd173c75")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 353.06 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aded0041-6130-467b-8259-3e7f533aa9d1")
+		(property "Reference" "J8"
+			(at 353.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 353.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 356.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 353.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "e1fd32f3-721a-492b-a60e-75bda28786ca")
+		)
+		(pin "3"
+			(uuid "763eaf5f-9524-4dcf-ae64-28af4eb36194")
+		)
+		(pin "7"
+			(uuid "c1aa5d49-c640-4742-8de6-ab64cb8c6efa")
+		)
+		(pin "8"
+			(uuid "6f1c3690-8a45-4254-8791-54dab24b7524")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e1")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f3")
+		)
+		(pin "6"
+			(uuid "a5fca1b8-dfc5-43c5-95a0-68e5e9e4a292")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba2")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1b00")
+		)
+		(pin "1"
+			(uuid "4578c072-caf8-4344-bf31-e97d6c9027b1")
+		)
+		(pin "5"
+			(uuid "01bb5730-b29c-4083-8691-486458e0ceba")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448def")
+		)
+		(pin "19"
+			(uuid "3767277e-84fd-492b-90cd-408830ee4c8e")
+		)
+		(pin "4"
+			(uuid "6dd3b9d2-69ec-4d25-85fd-437b2bb27c5c")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa4")
+		)
+		(pin "2"
+			(uuid "e0d343fa-1823-424d-9349-d0723ae0ec5b")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c44")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce09")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd82")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 60.96 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beaa53c5-fcee-41db-baab-c4e5c2c0d2ee")
+		(property "Reference" "J3"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 60.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 64.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 60.96 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "51c0d99c-8d68-4b8b-94a1-70cc6b93d993")
+		)
+		(pin "3"
+			(uuid "123d57fd-8ea3-40dd-a0bf-a62ef0c6d9df")
+		)
+		(pin "7"
+			(uuid "2c47c5c0-fc6a-4b21-8ef9-ef5bfda186c3")
+		)
+		(pin "8"
+			(uuid "9a1fceb5-63ba-4ad9-87a2-748fc0e07a31")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4df")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f1")
+		)
+		(pin "6"
+			(uuid "b9d18dcb-bd0a-4421-b7c4-64385830ea93")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba0")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afe")
+		)
+		(pin "1"
+			(uuid "c1a9d799-8cb1-4985-928b-259512d349cb")
+		)
+		(pin "5"
+			(uuid "ea303fe1-fe05-4bc8-9084-180826b49a8f")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448ded")
+		)
+		(pin "19"
+			(uuid "4f88e2aa-e33c-4619-a805-1cdc66102819")
+		)
+		(pin "4"
+			(uuid "ae7dff3d-cb1b-4e12-90b1-6aa2c6788fe5")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa2")
+		)
+		(pin "2"
+			(uuid "a20bcecf-4eb4-4a2b-b94e-e02cd19a3cf9")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c42")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce07")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd80")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 138.43 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9ff048-e0c6-4c65-b006-4b39bda2130f")
+		(property "Reference" "J4"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "0e975bf5-d046-4c75-affb-41bd3586a6a9")
+		)
+		(pin "3"
+			(uuid "8c2b3dfb-ba11-4631-9c02-abc94f52b25a")
+		)
+		(pin "7"
+			(uuid "ad8622b4-a061-4380-b000-c6204b0c4bb0")
+		)
+		(pin "8"
+			(uuid "12a699a5-daab-4c5e-99d1-a24c0e94d118")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4df")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f1")
+		)
+		(pin "6"
+			(uuid "962649fa-649a-43e2-915b-a7d11445ca59")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba0")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afe")
+		)
+		(pin "1"
+			(uuid "ae9cfa6e-898e-4502-a994-6c6c8008f7a4")
+		)
+		(pin "5"
+			(uuid "96e0cdee-6e1c-4209-9871-935075d5dcd7")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448ded")
+		)
+		(pin "19"
+			(uuid "69a00ec2-d7cc-4f0e-bf10-97dceab1bd3b")
+		)
+		(pin "4"
+			(uuid "23647437-6c55-4394-8325-a5e64fb7b991")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa2")
+		)
+		(pin "2"
+			(uuid "51dea9ef-61f6-445b-83db-a44b39cffdad")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c42")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce07")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd80")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 60.96 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0714d93-2291-42f5-a1c0-91dc44654924")
+		(property "Reference" "J2"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0d")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7b")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11d")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc1")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4df")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f1")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e4")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba0")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afe")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398b")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c83")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448ded")
+		)
+		(pin "19"
+			(uuid "e7d15158-282d-4819-ae24-db982a7d78bc")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf3")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa2")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbd")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c42")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce07")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd80")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 353.06 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e51c4f65-ae67-4f49-a5a3-135055c8d894")
+		(property "Reference" "J8"
+			(at 353.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 353.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 356.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 353.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee10")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7e")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d120")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc4")
+		)
+		(pin "10"
+			(uuid "5f4a3c5a-4d51-472f-b719-c25b298c3c92")
+		)
+		(pin "11"
+			(uuid "7038c5ce-8b9f-4a68-9396-2a4b5cc36675")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e7")
+		)
+		(pin "17"
+			(uuid "af6e69ad-91e1-412f-a26b-924685cacd00")
+		)
+		(pin "15"
+			(uuid "b2623d69-82b4-4d71-b507-d8d802e635ba")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398e")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c86")
+		)
+		(pin "13"
+			(uuid "e5713986-8085-4f22-b8d3-c5a924c95d13")
+		)
+		(pin "19"
+			(uuid "86c26e5c-6b82-4ce6-bbed-379d76cc348b")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf6")
+		)
+		(pin "12"
+			(uuid "95105ed3-133e-4be3-97ed-6553cde5fb43")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dc0")
+		)
+		(pin "18"
+			(uuid "62f2ad97-fa72-4ec6-a38c-022a7dc94422")
+		)
+		(pin "16"
+			(uuid "894a1a9a-7989-44bc-b828-3a2bfe1761e3")
+		)
+		(pin "14"
+			(uuid "60528f0f-6baa-4008-a87b-1c0721b760d2")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/fb157a94-354f-4f97-b4ab-850344c8def0"
+					(reference "J8")
+					(unit 2)
+				)
+			)
+		)
+	)
+)
