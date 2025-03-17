@@ -1721,7 +1721,7 @@
 	)
 	(symbol
 		(lib_id "UPD720210K8-BAF-A:UPD720210K8-BAF-A")
-		(at 172.72 135.89 0)
+		(at 96.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1729,7 +1729,7 @@
 		(dnp no)
 		(uuid "745cc809-418f-4ce6-b0e8-8dc2f773fe4b")
 		(property "Reference" "DD2"
-			(at 204.47 83.82 0)
+			(at 128.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 			)
 		)
 		(property "Value" "UPD720210K8-BAF-A"
-			(at 203.962 87.376 0)
+			(at 127.762 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1745,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-76-1EP_9x9mm_P0.4mm_EP5.81x6.31mm"
-			(at 210.312 218.44 0)
+			(at 134.112 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1755,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/~No%20Display/Renesas%20PDFs/uPD720210_DS.pdf"
-			(at 232.41 318.11 0)
+			(at 156.21 292.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Description" "The PD720210 is a 4-Port USB 3.0 hub controller, which complies with Universal Serial Bus 3.0 Specification and is 100% compatible with Renesas industry-standard host controllers. The controller provides four downstream USB ports. Each of these ports supports is fully backward compatible with all previous versions of USB, LS (Low-Speed) / FS (Full-Speed) / HS (High-Speed) / SS (SuperSpeed) operation.uPD720210 comes in a 76-pin QFN package. A few of the benefits that this device provides to system designer"
-			(at 171.704 220.726 0)
+			(at 95.504 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 232.41 518.11 0)
+			(at 156.21 492.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Renesas Electronics"
-			(at 232.41 618.11 0)
+			(at 156.21 592.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1794,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "UPD720210K8-BAF-A"
-			(at 232.41 718.11 0)
+			(at 156.21 692.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(property "Mouser Part Number" "968-UPD720210K8BAFA"
-			(at 232.41 818.11 0)
+			(at 156.21 792.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1814,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/UPD720210K8-BAF-A?qs=ZVKuL1Ob8AsZ2EpJ%252BfgVCw%3D%3D"
-			(at 232.41 918.11 0)
+			(at 156.21 892.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1824,7 @@
 			)
 		)
 		(property "Arrow Part Number" "UPD720210K8-BAF-A"
-			(at 232.41 1018.11 0)
+			(at 156.21 992.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1834,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/upd720210k8-baf-a/renesas-electronics"
-			(at 232.41 1118.11 0)
+			(at 156.21 1092.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
