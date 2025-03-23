@@ -224,6 +224,927 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:USB3_A_Stacked"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB3_A_Stacked"
+				(at 10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 3.0 A connector, stacked"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB3?A*Stacked*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB3_A_Stacked_0_0"
+				(rectangle
+					(start -9.144 8.636)
+					(end -5.08 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.874 7.366)
+					(end -6.604 -2.286)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.35 5.334)
+					(end -6.096 4.572)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 3.556)
+					(end -6.096 2.794)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 1.778)
+					(end -6.096 1.016)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 0)
+					(end -6.096 -0.762)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.794 -15.24)
+					(end -2.286 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 -15.24)
+					(end 0.254 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 5.334)
+					(end 9.144 4.826)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -9.906)
+					(end 9.144 -10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB3_A_Stacked_0_1"
+				(rectangle
+					(start -10.16 13.97)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB3_A_Stacked_1_1"
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "DRAIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SSRX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SSRX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SSTX1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SSTX1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB3_A_Stacked_2_1"
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "DRAIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SSRX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SSRX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SSTX2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SSTX2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCIexpress:PCIexpress_x1"
 			(pin_names
 				(offset 1.016)
@@ -969,35 +1890,2454 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 45.72 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a179351-9102-4668-84bb-e2577ee56578")
+	)
+	(junction
+		(at 45.72 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "128326f6-522e-4906-9441-5687cd8ab98b")
+	)
+	(junction
+		(at 102.87 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1931bef6-80c4-4a10-9512-d4fb751fdd4c")
+	)
+	(junction
+		(at 162.56 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4302f989-685e-43f5-95e4-1d11a0d675bc")
+	)
+	(junction
+		(at 102.87 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47cd5cbd-2f5e-420f-92f8-1a2463b5ffd3")
+	)
+	(junction
+		(at 45.72 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96580c93-2084-48e7-a154-c97e7d52bc6a")
+	)
+	(junction
+		(at 45.72 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ed8e83f-8c7b-44ab-8ccc-6df189183f40")
+	)
+	(junction
+		(at 102.87 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a211be04-f8dc-45ea-b8df-42098c7a2533")
+	)
+	(junction
+		(at 102.87 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f50b56-a593-4e79-b4c8-3c70a44ee1e1")
+	)
+	(junction
+		(at 162.56 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10556af-37d4-4b9f-b322-55091e3a37ab")
+	)
+	(wire
+		(pts
+			(xy 63.5 175.26) (xy 60.96 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0446eacb-1347-45b0-ba79-b132e0d480d6")
+	)
+	(wire
+		(pts
+			(xy 63.5 167.64) (xy 60.96 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05dd734a-910d-4bf4-98ad-326471de8bae")
+	)
+	(wire
+		(pts
+			(xy 43.18 237.49) (xy 45.72 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08924588-6f0b-494a-afc1-68067b29fd36")
+	)
+	(wire
+		(pts
+			(xy 120.65 170.18) (xy 118.11 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5d4bc3-0244-4196-aa00-1b63adaed5f8")
+	)
+	(wire
+		(pts
+			(xy 118.11 160.02) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfc56dd-9878-449f-993d-3e0b9211797c")
+	)
+	(wire
+		(pts
+			(xy 60.96 162.56) (xy 63.5 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1bd970-5bcb-432f-ab8c-0de2042196e1")
+	)
+	(wire
+		(pts
+			(xy 63.5 135.89) (xy 60.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4b07b0-526a-45ed-bffb-809ea6f7babd")
+	)
+	(wire
+		(pts
+			(xy 120.65 133.35) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc6e686-9075-400a-a1ba-65a25c65d509")
+	)
+	(wire
+		(pts
+			(xy 120.65 274.32) (xy 118.11 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1076853f-1ef4-47cd-b8a8-4fa42b7c8b6c")
+	)
+	(wire
+		(pts
+			(xy 60.96 113.03) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a3613a-5604-4de3-bcfe-148052fb33ac")
+	)
+	(wire
+		(pts
+			(xy 180.34 175.26) (xy 177.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1389291a-8533-4edc-bffb-cb0946c96707")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.65) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c469f1-ffbd-4a0b-a4ba-b143884b93ff")
+	)
+	(wire
+		(pts
+			(xy 45.72 237.49) (xy 48.26 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0aad54-444e-4c96-bc7c-322ca3a85678")
+	)
+	(wire
+		(pts
+			(xy 43.18 279.4) (xy 45.72 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c67053d-a60e-41bf-906f-6716b5ee1324")
+	)
+	(wire
+		(pts
+			(xy 60.96 120.65) (xy 63.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c96a295-f78b-430a-8e34-1ab7ebc19e4b")
+	)
+	(wire
+		(pts
+			(xy 180.34 177.8) (xy 177.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8873a8-22ab-49e3-8682-ccd15ff7b338")
+	)
+	(wire
+		(pts
+			(xy 160.02 140.97) (xy 162.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20baf109-8215-436c-a40f-f0eefdf1858c")
+	)
+	(wire
+		(pts
+			(xy 45.72 140.97) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211b9037-f25a-445c-8be8-a0ca009ced33")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253da43b-99f3-45fb-8c16-57a566fe3c48")
+	)
+	(wire
+		(pts
+			(xy 45.72 182.88) (xy 48.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bc0e1f-7d5f-49da-8fd1-4451ad0fdeb9")
+	)
+	(wire
+		(pts
+			(xy 120.65 167.64) (xy 118.11 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341371ff-b8a0-4615-b8f4-98b0acd76a8f")
+	)
+	(wire
+		(pts
+			(xy 63.5 232.41) (xy 60.96 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c0d66c-3483-4b9e-9ce0-a276a486aa54")
+	)
+	(wire
+		(pts
+			(xy 118.11 256.54) (xy 120.65 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371f7360-6b2f-4a4b-8a62-f2c89626278e")
+	)
+	(wire
+		(pts
+			(xy 118.11 154.94) (xy 139.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1d8fe2-5aa8-42b3-8b34-209b9269d544")
+	)
+	(wire
+		(pts
+			(xy 60.96 118.11) (xy 63.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c469119-65ab-44d8-9cc7-b4280b0c5f36")
+	)
+	(wire
+		(pts
+			(xy 63.5 271.78) (xy 60.96 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7971a4-94e7-4058-88aa-f620fbe9f011")
+	)
+	(wire
+		(pts
+			(xy 120.65 128.27) (xy 118.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406574c1-6c72-4b56-a096-db04c09cb6f6")
+	)
+	(wire
+		(pts
+			(xy 100.33 140.97) (xy 102.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41526c80-8117-40ee-8b23-8d6a9f599b1a")
+	)
+	(wire
+		(pts
+			(xy 180.34 135.89) (xy 177.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d6a451-fc03-4188-ad73-f94aa657b4c0")
+	)
+	(wire
+		(pts
+			(xy 45.72 279.4) (xy 48.26 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b28e6a-72a9-44dd-a7ab-786b33b3a775")
+	)
+	(wire
+		(pts
+			(xy 180.34 128.27) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4599ad6b-adf6-4b30-99ca-3dd65f3d25bf")
+	)
+	(wire
+		(pts
+			(xy 120.65 224.79) (xy 118.11 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482e19d2-4496-4456-b9fa-f17db781adae")
+	)
+	(wire
+		(pts
+			(xy 120.65 229.87) (xy 118.11 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e0f0bc-87c5-4ab4-975c-c65bd789e5b4")
+	)
+	(wire
+		(pts
+			(xy 100.33 237.49) (xy 102.87 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51650761-4321-4415-a138-8230612c33f6")
+	)
+	(wire
+		(pts
+			(xy 63.5 177.8) (xy 60.96 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e51905-56f3-4c2f-a7a2-6812984d62fc")
+	)
+	(wire
+		(pts
+			(xy 118.11 113.03) (xy 139.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b674a60-42b6-47fa-8391-4fde28cd1946")
+	)
+	(wire
+		(pts
+			(xy 63.5 266.7) (xy 60.96 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0cc8fa-1fb4-4709-b2d6-4b50ba5a7140")
+	)
+	(wire
+		(pts
+			(xy 60.96 217.17) (xy 63.5 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d167fd8-ff21-438e-9519-9358e7733e39")
+	)
+	(wire
+		(pts
+			(xy 100.33 182.88) (xy 102.87 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d95f01c-916c-4687-8d97-8c46bc03d522")
+	)
+	(wire
+		(pts
+			(xy 63.5 274.32) (xy 60.96 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60629aff-5194-45d8-8bbb-cadd651d8e2d")
+	)
+	(wire
+		(pts
+			(xy 60.96 256.54) (xy 63.5 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617e1ed8-c6d7-4a6f-97d4-e5e9ba0cb7c6")
+	)
+	(wire
+		(pts
+			(xy 177.8 120.65) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d29f9d-af92-41a6-b2eb-53aae6915b1e")
+	)
+	(wire
+		(pts
+			(xy 180.34 170.18) (xy 177.8 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d78879-abb9-4924-9572-59b8bafb9a0a")
+	)
+	(wire
+		(pts
+			(xy 60.96 251.46) (xy 82.55 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f221ca1-b638-4244-ab4f-26b6031360bf")
+	)
+	(wire
+		(pts
+			(xy 180.34 133.35) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71520bfb-7eb0-46cd-9d2d-61df383fb041")
+	)
+	(wire
+		(pts
+			(xy 102.87 140.97) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720bc521-0dfa-412e-a2cd-6d6df133b85f")
+	)
+	(wire
+		(pts
+			(xy 120.65 271.78) (xy 118.11 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731d67fc-9b7c-4974-bc73-90c2b0ba9f1f")
+	)
+	(wire
+		(pts
+			(xy 118.11 217.17) (xy 120.65 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740c4749-3a75-4d80-aeb4-67a233b6e6fe")
+	)
+	(wire
+		(pts
+			(xy 118.11 162.56) (xy 120.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc07264-7e34-43ac-85bb-23510290025d")
+	)
+	(wire
+		(pts
+			(xy 63.5 128.27) (xy 60.96 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817a2225-c9c5-4fa7-9703-9d4f8d2f9eef")
+	)
+	(wire
+		(pts
+			(xy 120.65 266.7) (xy 118.11 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85968e95-6fcf-4678-a230-466f1af81c26")
+	)
+	(wire
+		(pts
+			(xy 60.96 214.63) (xy 63.5 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e31e99d-188d-4d8c-b462-61e02c098984")
+	)
+	(wire
+		(pts
+			(xy 60.96 154.94) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e404e1-7559-41ca-b87d-3a8b91e87b25")
+	)
+	(wire
+		(pts
+			(xy 162.56 182.88) (xy 165.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91227767-b9da-46cf-970d-e67e9843387c")
+	)
+	(wire
+		(pts
+			(xy 180.34 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91799aa9-b15b-40ce-8ab2-6c406966d919")
+	)
+	(wire
+		(pts
+			(xy 102.87 237.49) (xy 105.41 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97da32bc-0e78-4211-97e7-59c69c2a4f1e")
+	)
+	(wire
+		(pts
+			(xy 120.65 264.16) (xy 118.11 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9823327e-c7a5-4ac9-a6aa-be2c8a90655e")
+	)
+	(wire
+		(pts
+			(xy 177.8 160.02) (xy 180.34 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b27f18d-d37c-48c4-8db6-151a8362571e")
+	)
+	(wire
+		(pts
+			(xy 180.34 167.64) (xy 177.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c33de39-15cc-4b99-b2c5-21063d7a3450")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 118.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f09857c-69dd-4ca1-8508-2b5e9de1e55e")
+	)
+	(wire
+		(pts
+			(xy 60.96 209.55) (xy 82.55 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f517a00-9445-4b8a-a7c9-001daddd08f3")
+	)
+	(wire
+		(pts
+			(xy 118.11 259.08) (xy 120.65 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1eda201-2615-400c-ac20-622004056d09")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a951ed45-4226-4be0-8529-5ae1e958b6db")
+	)
+	(wire
+		(pts
+			(xy 118.11 251.46) (xy 139.7 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe10b9e-c3d6-43b5-bde3-0c24fbf7d755")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 199.39 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8dcac3-de43-4479-93f4-34a06a53e5ba")
+	)
+	(wire
+		(pts
+			(xy 63.5 264.16) (xy 60.96 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ccde08-33f4-4f71-942d-b07d00f25149")
+	)
+	(wire
+		(pts
+			(xy 177.8 162.56) (xy 180.34 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a915f2-0b20-4aea-bc1e-610956ebf053")
+	)
+	(wire
+		(pts
+			(xy 120.65 222.25) (xy 118.11 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62970e4-56e7-4f9a-b8a0-b2201c4736e5")
+	)
+	(wire
+		(pts
+			(xy 63.5 222.25) (xy 60.96 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b683f634-c9f8-4bdc-aa55-f217de609697")
+	)
+	(wire
+		(pts
+			(xy 60.96 160.02) (xy 63.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68db4ec-58a1-44d6-bd6b-aa64b533e676")
+	)
+	(wire
+		(pts
+			(xy 118.11 209.55) (xy 139.7 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86665eb-89ed-4df9-97da-a253ca34565d")
+	)
+	(wire
+		(pts
+			(xy 160.02 182.88) (xy 162.56 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf74361-86ae-41fe-854b-0f30a4dacb4b")
+	)
+	(wire
+		(pts
+			(xy 63.5 133.35) (xy 60.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfef01c-39ff-4ef1-b0b9-cacb06c3c16f")
+	)
+	(wire
+		(pts
+			(xy 120.65 135.89) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdee999e-cb80-4343-8262-117fa232e14b")
+	)
+	(wire
+		(pts
+			(xy 162.56 140.97) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be54bf88-58b8-4ef3-a47f-516672a62cb1")
+	)
+	(wire
+		(pts
+			(xy 43.18 140.97) (xy 45.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51092f8-4375-4bb2-bdc2-a825f60a69f2")
+	)
+	(wire
+		(pts
+			(xy 120.65 177.8) (xy 118.11 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d706d4-9082-4d0b-8c4b-0e979dbfc2ff")
+	)
+	(wire
+		(pts
+			(xy 60.96 259.08) (xy 63.5 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7fd32e-38f0-4c16-bc72-2fd285afc397")
+	)
+	(wire
+		(pts
+			(xy 102.87 279.4) (xy 105.41 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a02c91-83ba-47c4-857a-b587c769cbe7")
+	)
+	(wire
+		(pts
+			(xy 63.5 229.87) (xy 60.96 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2824c3d-2f39-4235-b1f9-33317a9e81e9")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 118.11 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d569ac36-45d2-42cf-a211-c0092a5e7137")
+	)
+	(wire
+		(pts
+			(xy 177.8 154.94) (xy 199.39 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d899a11b-1de3-4da2-b724-09938b81b97f")
+	)
+	(wire
+		(pts
+			(xy 43.18 182.88) (xy 45.72 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9afa356-75f6-4b80-86ea-f30824f4b384")
+	)
+	(wire
+		(pts
+			(xy 63.5 125.73) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7d7922-2a26-4ba9-a5cf-a8f3a338a836")
+	)
+	(wire
+		(pts
+			(xy 118.11 214.63) (xy 120.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deacbd79-99a2-4912-bdfd-d4234f9a5920")
+	)
+	(wire
+		(pts
+			(xy 100.33 279.4) (xy 102.87 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44b9b98-5fdc-481a-9fd4-ab812281aa2f")
+	)
+	(wire
+		(pts
+			(xy 102.87 182.88) (xy 105.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec398975-69f0-482b-9545-1d0a5204b209")
+	)
+	(wire
+		(pts
+			(xy 120.65 232.41) (xy 118.11 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef839da2-fa60-49ad-a8fb-76ae71e5a2be")
+	)
+	(wire
+		(pts
+			(xy 63.5 170.18) (xy 60.96 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d22e4c-e6db-4279-af14-8f2c4ba710ce")
+	)
+	(wire
+		(pts
+			(xy 63.5 224.79) (xy 60.96 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f590e783-8c5e-415c-848f-438e34e7a2f8")
+	)
+	(global_label "USB-downstream9-TX-"
+		(shape input)
+		(at 180.34 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05171cc8-edd0-451c-a0f6-7e3208a33488")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.2362 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream5-TX+"
+		(shape input)
+		(at 120.65 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09b6a43b-e7d3-4cd2-a8f5-566ec5eb79bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.3725 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream5-TX-"
+		(shape input)
+		(at 120.65 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a6ec449-92d7-4f1a-90a9-7673a70806ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream10-TX-"
+		(shape input)
+		(at 180.34 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b2982f3-3b1e-4378-8057-e102acb629a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7561 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream9-RX+"
+		(shape input)
+		(at 180.34 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e7289d6-55c5-4852-a1d1-bac05259af86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1493 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream1-RX+"
+		(shape input)
+		(at 63.5 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "133a4f7d-e498-44d5-a507-2522918f5ae5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.0488 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream7-RX-"
+		(shape input)
+		(at 120.65 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "158a3f70-bdf4-4378-9584-6fd6765ac26c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5462 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream6-TX+"
+		(shape tri_state)
+		(at 120.65 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1620ec1d-b2ad-4543-be32-915f5cc2ee60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5706 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream9-D-"
+		(shape input)
+		(at 180.34 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16fa7a82-6b1a-4f97-8567-5c9799b54256")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.3689 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream4-TX-"
+		(shape input)
+		(at 63.5 271.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b696d34-0c51-4804-a7af-7c958a42441d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3962 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream8-D-"
+		(shape input)
+		(at 120.65 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21099998-3918-4bbe-b8f1-150992a2229f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.6789 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream5-D+"
+		(shape input)
+		(at 120.65 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c73ff6c-6f67-494d-9341-04be419845ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5052 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream6-D-"
+		(shape input)
+		(at 120.65 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e9c25a3-475e-4a08-bcbb-d729dd5d43c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.6789 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream7-TX-"
+		(shape input)
+		(at 120.65 229.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32a4236c-4cc4-49be-842b-392a34849680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5462 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream3-RX+"
+		(shape input)
+		(at 63.5 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33853d96-beab-434b-9162-97d1ca75c2c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2225 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream2-D-"
+		(shape input)
+		(at 63.5 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37ea0802-9b95-46d1-8fc8-e4ff73ef634e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.5289 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream2-TX-"
+		(shape input)
+		(at 63.5 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a5eaa80-b000-480f-a73b-eec4f90b6177")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3962 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream8-RX-"
+		(shape input)
+		(at 120.65 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ddf9d20-47e8-446e-9845-87911a0fc60e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5462 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream2-D+"
+		(shape input)
+		(at 63.5 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e72422a-c012-4d0a-8879-0aadab628388")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.442 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream10-RX-"
+		(shape input)
+		(at 180.34 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42f7634e-a8bc-4627-a67d-b0715fcca914")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7561 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream8-RX+"
+		(shape input)
+		(at 120.65 266.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47bb8122-6db3-4716-9827-cbaa40b32295")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream6-RX-"
+		(shape input)
+		(at 120.65 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "524ce89a-5dc6-46aa-9111-e603780eb687")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5462 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream10-D-"
+		(shape input)
+		(at 180.34 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "595e7913-a7f7-4388-aef3-c3bf40aac4d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.8888 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream5-RX-"
+		(shape input)
+		(at 120.65 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a0cc4df-6b1c-412f-a507-d4e86ff6eddf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream7-TX+"
+		(shape input)
+		(at 120.65 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "619e4c82-a23c-4c7c-8f22-6f0cef4355a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream2-TX+"
+		(shape input)
+		(at 63.5 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68dc08b4-897c-435b-b1e3-59ab7a2fb8ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3093 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream10-D+"
+		(shape input)
+		(at 180.34 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b70f649-905b-4410-b0a2-9ca6a1285039")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.8019 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream8-TX-"
+		(shape input)
+		(at 120.65 271.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e35fb0e-3751-43ed-88b1-54ae20e01ce0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5462 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream3-RX-"
+		(shape input)
+		(at 63.5 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "721767f5-9d91-42bd-9f17-2e4c82d3c501")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3093 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream2-RX+"
+		(shape input)
+		(at 63.5 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7233ee34-3ee1-4b66-98c4-cbd168ba4eef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3093 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream9-RX-"
+		(shape input)
+		(at 180.34 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81d508d2-d276-4d1c-b85a-a138edbc1e52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.2362 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream3-TX-"
+		(shape input)
+		(at 63.5 229.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83558144-2332-4deb-aa30-08245609867e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3093 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream3-D+"
+		(shape input)
+		(at 63.5 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83b20a9d-464b-4049-98a1-feb006204e3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.3552 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream10-TX+"
+		(shape input)
+		(at 180.34 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c66c6ed-c051-4ac9-9a15-947b9d45edf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.6692 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream4-D-"
+		(shape input)
+		(at 63.5 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f84370d-1626-477c-aa99-93d98162237b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.5289 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream9-TX+"
+		(shape input)
+		(at 180.34 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "900da665-e2ee-488e-af61-599ce0d4c58f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.1493 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream5-RX+"
+		(shape input)
+		(at 120.65 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91d7ca37-03cd-41e3-bbc4-bc4c8afc7cb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.3725 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream3-TX+"
+		(shape input)
+		(at 63.5 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a53e346d-a872-490b-94d0-3e7bafe1f17b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2225 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream4-D+"
+		(shape input)
+		(at 63.5 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aefbbeb5-72e9-4936-81ea-8ed800c85ed1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.442 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream10-RX+"
+		(shape input)
+		(at 180.34 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afe64ba6-0f55-4a29-9649-7dd2874bdda7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.6692 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream4-TX+"
+		(shape input)
+		(at 63.5 274.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b066834c-6e9e-498e-b9f9-81c50823f846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3093 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream1-D-"
+		(shape input)
+		(at 63.5 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b249adbd-6d02-40f5-bcdd-29eb694d4527")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.2683 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream7-D-"
+		(shape input)
+		(at 120.65 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2fe8e3e-24da-4833-85e4-75bdd3fde248")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.6789 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream9-D+"
+		(shape input)
+		(at 180.34 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3ecf0c6-e734-448d-8b04-ab9a575bd911")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.282 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream1-D+"
+		(shape input)
+		(at 63.5 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6140f1b-2060-4b37-ba3e-55232219cfd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.1815 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream6-TX-"
+		(shape input)
+		(at 120.65 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7994d54-f85f-466c-ac39-c0d0904cc543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.5462 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream7-D+"
+		(shape input)
+		(at 120.65 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21ce3e9-888d-49b1-bf90-b28af4baa28b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.592 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream8-D+"
+		(shape input)
+		(at 120.65 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3f0275c-01d7-4a49-8254-f29dfca6e365")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.592 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream2-RX-"
+		(shape input)
+		(at 63.5 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7cf05d3-4abd-4c30-9660-2ee98bf80148")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3962 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream6-D+"
+		(shape input)
+		(at 120.65 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1553987-2f42-46bd-b77a-03f4a03fd2ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.592 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream1-TX+"
+		(shape input)
+		(at 63.5 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d462077b-e980-412f-ae1f-c3528f303d97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.0488 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream3-D-"
+		(shape input)
+		(at 63.5 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7561463-65f6-40f3-85d1-4c9e175b4461")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.442 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream1-TX-"
+		(shape input)
+		(at 63.5 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d82787e6-859e-4a04-a582-b7c6034d5812")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.1356 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream8-TX+"
+		(shape input)
+		(at 120.65 274.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dab5b289-5282-430e-9de6-78c23e345580")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream1-RX-"
+		(shape input)
+		(at 63.5 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcb0dfbe-1d1d-452a-ab8d-741765534b98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.1356 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream6-RX+"
+		(shape input)
+		(at 120.65 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e42a7551-06ba-4098-ae7f-0a310cf080e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream7-RX+"
+		(shape input)
+		(at 120.65 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb2f1e73-809b-4c7e-bc93-37fcc84824fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.4593 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream5-D-"
+		(shape input)
+		(at 120.65 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee83c1bb-3f29-4c33-a87b-71d28bd62d76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.592 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream4-RX+"
+		(shape input)
+		(at 63.5 266.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f123435d-dfb9-4927-9e43-c066904e63dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3093 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-downstream4-RX-"
+		(shape input)
+		(at 63.5 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fead3207-5f62-44f1-9478-18e86145c623")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.3962 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 127 83.82 0)
+		(lib_id "power:Earth")
+		(at 45.72 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28daa89d-e5dc-4752-9f43-f5482ac0b9bc")
-		(property "Reference" "J7"
-			(at 127 74.93 0)
+		(uuid "00b5bece-7b67-4424-b5d0-69b5ec564a04")
+		(property "Reference" "#PWR015"
+			(at 45.72 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Barrel_Jack_MountingPin"
-			(at 127 77.47 0)
+		(property "Value" "Earth"
+			(at 45.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 128.27 84.836 0)
+		(property "Footprint" ""
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +4346,412 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 84.836 0)
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe801e69-a718-48c4-b37d-0edb1b3733ea")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 102.87 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7e3785-32f8-4800-863c-f9459dc9f2da")
+		(property "Reference" "#PWR016"
+			(at 102.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f762a44-3842-4386-914f-4fd661bf62dd")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "183eb031-25bc-4839-88b9-a86cfbeb6211")
+		(property "Reference" "C8"
+			(at 85.598 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 85.344 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 83.5152 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 82.55 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 87.122 214.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "194d8259-6a03-4d24-825e-fb0dc5a09c9d")
+		)
+		(pin "2"
+			(uuid "9c755af1-8cda-4dc5-991e-efc4bc775095")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 105.41 165.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b81f960-ab40-42f4-83a9-9f78ba59a343")
+		(property "Reference" "J4"
+			(at 105.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 105.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0c")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7a")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11c")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc0")
+		)
+		(pin "10"
+			(uuid "cdcc8a6d-a90f-4783-8aae-57d4591d182e")
+		)
+		(pin "11"
+			(uuid "097de3ca-7a60-44f0-8bd3-f951bfb81e5f")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e3")
+		)
+		(pin "17"
+			(uuid "406f4a9e-05cf-4aa3-ae22-e6a71b376c38")
+		)
+		(pin "15"
+			(uuid "2ad548ff-442d-44ef-9faf-3c50707aec87")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398a")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c82")
+		)
+		(pin "13"
+			(uuid "11add5d1-315e-4ee0-af66-cc5e2d7a1de0")
+		)
+		(pin "19"
+			(uuid "14993032-81cf-4a41-9116-73680469bc3a")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf2")
+		)
+		(pin "12"
+			(uuid "abf8307a-e9e6-4de4-85b4-58e4ed5a494f")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbc")
+		)
+		(pin "18"
+			(uuid "385e200e-73fd-48db-a03b-35b4443149ae")
+		)
+		(pin "16"
+			(uuid "bb60b66e-1dda-44e0-b120-d4841dfbc512")
+		)
+		(pin "14"
+			(uuid "bd4525b4-3222-4d7a-9d77-cd4e5d6bea1e")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 139.7 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dc99827-21b0-41bd-a518-d7c3e860762f")
+		(property "Reference" "C7"
+			(at 142.748 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 142.494 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 140.6652 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 139.7 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 144.272 214.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8d45670-5dc1-435e-a2d6-e3c2d9933780")
+		)
+		(pin "2"
+			(uuid "d848f866-1cf9-44bb-884e-2c155c3113d2")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_MountingPin")
+		(at 331.47 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28daa89d-e5dc-4752-9f43-f5482ac0b9bc")
+		(property "Reference" "J7"
+			(at 331.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_MountingPin"
+			(at 331.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
+			(at 332.74 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +4760,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 127 83.82 0)
+			(at 331.47 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,8 +4787,2216 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 48.26 261.62 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ddbbc0-bc29-4d11-8d4b-48ac0d13d08c")
+		(property "Reference" "J3"
+			(at 48.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 52.07 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 48.26 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0d")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7b")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11d")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc1")
+		)
+		(pin "10"
+			(uuid "2fe6f018-09b2-4f0e-8d48-7a8cbb303526")
+		)
+		(pin "11"
+			(uuid "83e7214a-3ffb-4022-8568-80c635b629f2")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e4")
+		)
+		(pin "17"
+			(uuid "96d79253-e51e-40e8-a478-7fa34d177f7e")
+		)
+		(pin "15"
+			(uuid "0e203ad6-c202-4885-829d-7edb69b732fc")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398b")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c83")
+		)
+		(pin "13"
+			(uuid "108dafe7-a807-4d9b-b908-985feae57603")
+		)
+		(pin "19"
+			(uuid "75bb9137-97c5-4c42-9706-2e30dab3ca92")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf3")
+		)
+		(pin "12"
+			(uuid "06c17654-0e9e-4872-beb2-77f796d4502d")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbd")
+		)
+		(pin "18"
+			(uuid "5dc46c6f-2e40-46a7-8460-75a0ac1a8a9f")
+		)
+		(pin "16"
+			(uuid "aa6777aa-71cd-4f40-8ca4-5de7d2215e41")
+		)
+		(pin "14"
+			(uuid "4e42719f-8e69-4664-95ea-62659b535b52")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 82.55 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ccddfa-1dde-4d05-acda-f06bf9eb6c7e")
+		(property "Reference" "#PWR01"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e649c5c4-6a1d-4de2-83cb-d8f3f9636008")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 139.7 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ef18cfe-0b18-4403-8fc0-125ce62ef2b5")
+		(property "Reference" "#PWR03"
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92dc9932-56db-4fc3-9034-b0700ea2275c")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 82.55 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46c828ef-fcec-4288-90fa-d11e6410bf69")
+		(property "Reference" "#PWR08"
+			(at 82.55 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 82.55 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 82.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e700ddae-b78f-4414-8b7f-22097790e393")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 165.1 165.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4724ce02-70ce-4d56-8205-adfb422c2d6d")
+		(property "Reference" "J6"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 168.91 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 165.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee0e")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7c")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d11e")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc2")
+		)
+		(pin "10"
+			(uuid "b5c0db42-ff0f-4a01-92c8-e71f1bf1ca11")
+		)
+		(pin "11"
+			(uuid "0f4ae725-4cca-4eac-98e6-e93d8e78dfd8")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e5")
+		)
+		(pin "17"
+			(uuid "b464603b-9dcd-40f5-9720-11001b880830")
+		)
+		(pin "15"
+			(uuid "4a6917b2-88c3-4de3-8e89-7ac17225b594")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398c")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c84")
+		)
+		(pin "13"
+			(uuid "39ef1c30-f840-4841-90a5-529a1f92eb3b")
+		)
+		(pin "19"
+			(uuid "69c66c6e-e76f-4f2c-b39a-409dfda05564")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf4")
+		)
+		(pin "12"
+			(uuid "0d1dd31d-57cf-4641-be62-8f5dea99a685")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dbe")
+		)
+		(pin "18"
+			(uuid "fc950f7e-cc7c-4352-9f67-ba4a797a5eb1")
+		)
+		(pin "16"
+			(uuid "e827ee0b-a1b0-497f-af87-9a70927e3e7a")
+		)
+		(pin "14"
+			(uuid "2dec5823-bc60-4f5d-92dd-9d7d430ec2a7")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 139.7 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a6b0508-f661-4e84-ae8d-5477a2b587c7")
+		(property "Reference" "#PWR04"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b69d3b-e0cf-4822-bffd-d92a464f40be")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 139.7 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51b68dd7-b594-490e-a8d6-a131a422a024")
+		(property "Reference" "#PWR010"
+			(at 139.7 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 139.7 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 139.7 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ade5a7-b98c-48ca-9937-2bb3d0e39b78")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 105.41 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54cfcf53-8504-4825-a24e-e58442de1715")
+		(property "Reference" "J5"
+			(at 105.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 105.41 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 109.22 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 105.41 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "9969d96c-b0cf-4965-8523-b27fafa23145")
+		)
+		(pin "3"
+			(uuid "c407a0e8-2222-402e-8b19-e1ef3e496ce5")
+		)
+		(pin "7"
+			(uuid "d03d4ca4-2b21-4623-994f-bbadf02039f3")
+		)
+		(pin "8"
+			(uuid "5f9d0124-1c2c-42fb-abdd-720cb0e86258")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4df")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f1")
+		)
+		(pin "6"
+			(uuid "e64636a3-0eae-4c90-b39c-72a2088413a0")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba0")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afe")
+		)
+		(pin "1"
+			(uuid "a4e80bd4-7fe6-4bd5-9dd8-7e58c3261af0")
+		)
+		(pin "5"
+			(uuid "3a5f51e7-b4eb-4904-abce-57c3bfac284f")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448ded")
+		)
+		(pin "19"
+			(uuid "b050dd84-1b3b-4576-b77b-9d1695dabd6c")
+		)
+		(pin "4"
+			(uuid "1928e053-a2e8-4c89-8c56-f4940ef21f94")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa2")
+		)
+		(pin "2"
+			(uuid "aaa60b7f-e8b3-4257-894b-cb51971fd1a8")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c42")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce07")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd80")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 162.56 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "581673b5-891f-4204-9fb2-ba143737763a")
+		(property "Reference" "#PWR011"
+			(at 162.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43c223cc-579b-4c8a-be63-ac439b6de735")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 139.7 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c9e0db2-891c-4c4c-8976-fb7685dd6768")
+		(property "Reference" "#PWR07"
+			(at 139.7 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 139.7 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 139.7 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9082297b-77b6-4af2-b193-b0a460533b1c")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 82.55 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60f8a31e-d9dc-4cfe-b384-24319a99f00c")
+		(property "Reference" "#PWR09"
+			(at 82.55 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 82.55 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 82.55 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1971f3d-50f8-497c-bfa5-033403470840")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 199.39 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ecd02a-258f-4b30-b8cf-0e7ba79f4977")
+		(property "Reference" "C6"
+			(at 202.438 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 202.184 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 200.3552 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 199.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 203.962 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af28f97a-a827-4a61-9fb5-4ad5dc69c176")
+		)
+		(pin "2"
+			(uuid "7079e936-ccfb-4e6d-8735-8b2c552831f0")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 199.39 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65ea87f4-6ccd-46d2-a6ee-d9e03134fa98")
+		(property "Reference" "C5"
+			(at 202.438 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 202.184 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 200.3552 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 203.962 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da1b1598-bd06-402b-8857-9a72e6489afd")
+		)
+		(pin "2"
+			(uuid "447de60e-a95f-4659-904d-0ebd5de67661")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a1155a0-492f-4963-92e1-39a3235509be")
+		(property "Reference" "C1"
+			(at 85.598 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 85.344 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 83.5152 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 87.122 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79198c7d-d12c-42d6-a64c-f69482546c59")
+		)
+		(pin "2"
+			(uuid "620c38c4-0e88-4af8-a404-46b6f3583488")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 105.41 261.62 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f64d3f5-3233-4d8e-9589-bf76a3806059")
+		(property "Reference" "J5"
+			(at 105.41 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 105.41 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 109.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 105.41 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee10")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7e")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d120")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc4")
+		)
+		(pin "10"
+			(uuid "be1237af-67bb-428b-8a20-de2650611cef")
+		)
+		(pin "11"
+			(uuid "2a39c18f-fbe5-43c1-8d50-c57ac6f9ccfb")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e7")
+		)
+		(pin "17"
+			(uuid "818ccea1-34d7-4f15-9460-7be25f712c8d")
+		)
+		(pin "15"
+			(uuid "9dbef398-40e0-457c-964e-ed27abd15a8d")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398e")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c86")
+		)
+		(pin "13"
+			(uuid "a74c02b4-00b0-4692-9d65-d118a13114f6")
+		)
+		(pin "19"
+			(uuid "33aa1234-e01c-483f-a4bc-5da07b0a10e2")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf6")
+		)
+		(pin "12"
+			(uuid "f52c543b-0620-4891-90d5-c83862794f08")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dc0")
+		)
+		(pin "18"
+			(uuid "1c37516b-7437-4279-bfdc-95f31dfd26e5")
+		)
+		(pin "16"
+			(uuid "705d0116-2640-4c84-86b9-b095bb42b4ba")
+		)
+		(pin "14"
+			(uuid "1238525f-d1e4-47c4-adfc-379bdd770bbc")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 165.1 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7047346e-039c-4859-83b6-8f0f07300ca2")
+		(property "Reference" "J6"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 168.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "9e86767a-b74d-4f0c-a7e5-d2412abf9020")
+		)
+		(pin "3"
+			(uuid "7abb58f4-fe86-43df-8b73-b177d2b4b326")
+		)
+		(pin "7"
+			(uuid "30f367b3-7a17-4196-82c4-71402f366503")
+		)
+		(pin "8"
+			(uuid "2095c5b1-a49f-4915-a88d-9a30e5676c39")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e1")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f3")
+		)
+		(pin "6"
+			(uuid "26eeedb7-8ff6-43f6-8238-50c7ec7aa625")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba2")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1b00")
+		)
+		(pin "1"
+			(uuid "d39006b2-5a2c-4ae8-a150-e16e6249b1da")
+		)
+		(pin "5"
+			(uuid "e70e3c25-edc2-4cd1-a1e3-74d6afbca04f")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448def")
+		)
+		(pin "19"
+			(uuid "d4c142bc-867f-4f30-bffa-b8c55486f645")
+		)
+		(pin "4"
+			(uuid "98940447-08f5-45e0-b408-f378a231a065")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa4")
+		)
+		(pin "2"
+			(uuid "1a742ccc-4a85-4de0-887b-22d411639afa")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c44")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce09")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd82")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 48.26 165.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d107f2-15bc-4fb8-9375-ad8afc6b43b2")
+		(property "Reference" "J2"
+			(at 48.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 48.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee11")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c7f")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d121")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc5")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4de")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f0")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3e8")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07b9f")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1afd")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf616398f")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c87")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448dec")
+		)
+		(pin "19"
+			(uuid "e7d15158-282d-4819-ae24-db982a7d78bb")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf7")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa1")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dc1")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c41")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce06")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd7f")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 102.87 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72957c0b-edb3-4789-b857-c6e57b51a674")
+		(property "Reference" "#PWR013"
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 102.87 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1831943f-bdf4-4705-85af-bf5549bca647")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 139.7 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73354b46-10fd-4b2c-bb75-a03f9a6eead8")
+		(property "Reference" "C3"
+			(at 142.748 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 142.494 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 140.6652 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 144.272 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dac9da41-766a-429f-8bb8-cb5d84f3c2db")
+		)
+		(pin "2"
+			(uuid "699ba7bf-08b3-46d4-a378-b75003b21282")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 45.72 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc93718-3779-4dce-9e5f-a4d961f901fa")
+		(property "Reference" "#PWR014"
+			(at 45.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 45.72 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b3b78ba-e8a1-44ff-861d-ecf2ee7fa4b2")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 162.56 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84a7fb50-3d0f-4176-b3d0-f12e1e893a52")
+		(property "Reference" "#PWR012"
+			(at 162.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 162.56 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6ef516c-084a-4876-9012-0ca58869596d")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 45.72 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89bee3ba-a16d-4351-ad72-f79d9be0ce6e")
+		(property "Reference" "#PWR017"
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 45.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 45.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c023784-7efb-454c-afc7-6db4d3feb7ee")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 102.87 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae5e2870-0d20-4e55-a924-f69e410de708")
+		(property "Reference" "#PWR018"
+			(at 102.87 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 102.87 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3213c002-2d57-4305-b2ce-aab0089f7d23")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 48.26 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beaa53c5-fcee-41db-baab-c4e5c2c0d2ee")
+		(property "Reference" "J3"
+			(at 48.26 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 48.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 52.07 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 48.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "51c0d99c-8d68-4b8b-94a1-70cc6b93d993")
+		)
+		(pin "3"
+			(uuid "123d57fd-8ea3-40dd-a0bf-a62ef0c6d9df")
+		)
+		(pin "7"
+			(uuid "2c47c5c0-fc6a-4b21-8ef9-ef5bfda186c3")
+		)
+		(pin "8"
+			(uuid "9a1fceb5-63ba-4ad9-87a2-748fc0e07a31")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e4")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f6")
+		)
+		(pin "6"
+			(uuid "b9d18dcb-bd0a-4421-b7c4-64385830ea93")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba5")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1b03")
+		)
+		(pin "1"
+			(uuid "c1a9d799-8cb1-4985-928b-259512d349cb")
+		)
+		(pin "5"
+			(uuid "ea303fe1-fe05-4bc8-9084-180826b49a8f")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448df2")
+		)
+		(pin "19"
+			(uuid "4f88e2aa-e33c-4619-a805-1cdc66102819")
+		)
+		(pin "4"
+			(uuid "ae7dff3d-cb1b-4e12-90b1-6aa2c6788fe5")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa7")
+		)
+		(pin "2"
+			(uuid "a20bcecf-4eb4-4a2b-b94e-e02cd19a3cf9")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c47")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce0c")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd85")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce016a0b-802b-47a6-96b3-9ca79b0ac144")
+		(property "Reference" "C2"
+			(at 85.598 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 85.344 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 83.5152 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 87.122 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91d882ba-47f3-4388-9dd7-9ccfaf118bc3")
+		)
+		(pin "2"
+			(uuid "1ea40bb4-76c8-4030-88d9-b256634e65df")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 105.41 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9ff048-e0c6-4c65-b006-4b39bda2130f")
+		(property "Reference" "J4"
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "0e975bf5-d046-4c75-affb-41bd3586a6a9")
+		)
+		(pin "3"
+			(uuid "8c2b3dfb-ba11-4631-9c02-abc94f52b25a")
+		)
+		(pin "7"
+			(uuid "ad8622b4-a061-4380-b000-c6204b0c4bb0")
+		)
+		(pin "8"
+			(uuid "12a699a5-daab-4c5e-99d1-a24c0e94d118")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e5")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f7")
+		)
+		(pin "6"
+			(uuid "962649fa-649a-43e2-915b-a7d11445ca59")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba6")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1b04")
+		)
+		(pin "1"
+			(uuid "ae9cfa6e-898e-4502-a994-6c6c8008f7a4")
+		)
+		(pin "5"
+			(uuid "96e0cdee-6e1c-4209-9871-935075d5dcd7")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448df3")
+		)
+		(pin "19"
+			(uuid "69a00ec2-d7cc-4f0e-bf10-97dceab1bd3b")
+		)
+		(pin "4"
+			(uuid "23647437-6c55-4394-8325-a5e64fb7b991")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa8")
+		)
+		(pin "2"
+			(uuid "51dea9ef-61f6-445b-83db-a44b39cffdad")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c48")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce0d")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd86")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCIexpress:PCIexpress_x1")
-		(at 205.74 78.74 0)
+		(at 66.04 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1051,7 +7004,7 @@
 		(dnp no)
 		(uuid "db2f5021-c9b4-437d-9b09-2edf3b68df12")
 		(property "Reference" "J1"
-			(at 205.74 73.66 0)
+			(at 66.04 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +7012,7 @@
 			)
 		)
 		(property "Value" "PCIexpress_x1"
-			(at 205.232 131.064 0)
+			(at 65.532 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +7020,7 @@
 			)
 		)
 		(property "Footprint" "PCIexpress:PCIexpress_x1"
-			(at 205.74 102.87 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +7029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 102.87 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +7038,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 78.74 0)
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,6 +7158,691 @@
 			(project ""
 				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A_Stacked")
+		(at 48.26 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0714d93-2291-42f5-a1c0-91dc44654924")
+		(property "Reference" "J2"
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB3_A_Stacked"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48406-0001_Horizontal_Stacked"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector, stacked"
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7bbb2441-9ad2-4aa3-9cc6-3f5454c4ee13")
+		)
+		(pin "3"
+			(uuid "7bc5ec5e-ebd7-4808-85ef-f2c5ec026c81")
+		)
+		(pin "7"
+			(uuid "129cf611-1bd1-4970-ade7-60a6d953d123")
+		)
+		(pin "8"
+			(uuid "7e9feddd-4fbe-4d66-8033-b68236c71bc7")
+		)
+		(pin "10"
+			(uuid "e13daa86-8481-4abd-93c9-18009862b4e6")
+		)
+		(pin "11"
+			(uuid "1bb3a43c-326f-4618-9c80-78599c4be4f8")
+		)
+		(pin "6"
+			(uuid "bc00c200-b11e-40e7-baa8-d61553aee3ea")
+		)
+		(pin "17"
+			(uuid "4cce566a-a934-48d9-8eac-c8c15ed07ba7")
+		)
+		(pin "15"
+			(uuid "8a47e850-3788-4b30-a825-844801af1b05")
+		)
+		(pin "1"
+			(uuid "778700d8-8408-4224-ad79-0feaf6163991")
+		)
+		(pin "5"
+			(uuid "25182306-92d4-4ce3-a0f6-ca16348b8c89")
+		)
+		(pin "13"
+			(uuid "be713dc8-9b09-4d61-a156-3115af448df4")
+		)
+		(pin "19"
+			(uuid "e7d15158-282d-4819-ae24-db982a7d78bc")
+		)
+		(pin "4"
+			(uuid "3854812a-b5dd-4017-8128-b970598efbf9")
+		)
+		(pin "12"
+			(uuid "ebc69cd8-38f4-47f6-9d36-4bf213386aa9")
+		)
+		(pin "2"
+			(uuid "fce6914a-00d2-4cb3-ac9e-0c5ecb8a5dc3")
+		)
+		(pin "18"
+			(uuid "51cf81c8-533b-40e4-9776-7c5cef7e1c49")
+		)
+		(pin "16"
+			(uuid "1e7ffaf1-76db-4741-a480-a0eeb60dce0e")
+		)
+		(pin "14"
+			(uuid "9c4546df-3cb0-4158-a9d3-75f10b61cd87")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 102.87 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d711d3-5604-49b1-a11a-09783d78d209")
+		(property "Reference" "#PWR019"
+			(at 102.87 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 102.87 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a68527-b781-4508-97c4-5030fe893de7")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 139.7 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3c37d5c-9d7c-4f6b-a82b-70ea99174f11")
+		(property "Reference" "C10"
+			(at 142.748 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 142.494 255.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 140.6652 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 139.7 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 144.272 256.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31ce8fed-79e5-4d80-b0e4-5d790bbca9fd")
+		)
+		(pin "2"
+			(uuid "218e1667-acce-4001-9e8e-b651daaf0c99")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 139.7 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5d18db6-48d4-4c63-aaed-b9dd00dc7577")
+		(property "Reference" "C4"
+			(at 142.748 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 142.494 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 140.6652 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 144.272 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d38b2f95-a88b-4576-89ab-9a510b1d435d")
+		)
+		(pin "2"
+			(uuid "1d70c88f-54a9-4446-b1a9-ae8b0954d820")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 82.55 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7061589-46ae-4dda-a681-4c5a0ea4f51f")
+		(property "Reference" "#PWR02"
+			(at 82.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64bd7a5a-225d-4ed5-8162-5bfefcbc137a")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 82.55 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9f04ff-d410-4711-9b8b-63cd5ccbad01")
+		(property "Reference" "C9"
+			(at 85.598 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEEFK1E151P"
+			(at 85.344 255.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 83.5152 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 82.55 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ёмкость" "150uF"
+			(at 87.122 256.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8344122d-4287-4285-bb97-f619057054f9")
+		)
+		(pin "2"
+			(uuid "a6e61622-309c-4de8-9fe1-ff637bd40480")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 199.39 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eca9b922-6a8b-45d3-b883-546d89eda9dd")
+		(property "Reference" "#PWR06"
+			(at 199.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 199.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287cee68-4ed3-4f76-af9c-60af11979aa3")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 45.72 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd0146d-cc1e-44eb-bf58-96f9fb7a1cc9")
+		(property "Reference" "#PWR020"
+			(at 45.72 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 45.72 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 45.72 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7567a3c6-badd-424d-a1ee-ca5ff47082f3")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 199.39 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef8eb7fa-c0e7-4f75-a42b-ca2a9fbabc51")
+		(property "Reference" "#PWR05"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3626eb86-84a0-4db7-bd0b-54d206e27322")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
