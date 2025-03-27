@@ -13878,6 +13878,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 210.82 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "556a5958-ac6f-4588-a63a-f1cb7d2e25d7")
+		(property "Reference" "#PWR073"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_DUAL"
+			(at 210.82 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77881989-66c2-43b9-8c8f-284321dde7a3")
+		)
+		(instances
+			(project "PCIe-USB-hub"
+				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/09537bd2-8ad3-47b5-a113-3e1df9f3dc09"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 205.74 67.31 0)
 		(unit 1)
@@ -15881,7 +15946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f590aa-4c60-4a87-8435-46caa104845f")
-		(property "Reference" "DD"
+		(property "Reference" "DD8"
 			(at 58.42 120.904 0)
 			(effects
 				(font
@@ -15953,7 +16018,7 @@
 		(instances
 			(project ""
 				(path "/9ca96bdf-018d-455b-a724-78a2bbb0adec/09537bd2-8ad3-47b5-a113-3e1df9f3dc09"
-					(reference "DD")
+					(reference "DD8")
 					(unit 1)
 				)
 			)
