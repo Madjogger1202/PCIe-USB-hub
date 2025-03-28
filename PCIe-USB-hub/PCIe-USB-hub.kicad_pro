@@ -615,10 +615,6 @@
     [
       "09537bd2-8ad3-47b5-a113-3e1df9f3dc09",
       "PCIe to USB"
-    ],
-    [
-      "e0cda1b5-8d57-47d9-ab8a-85d7bc43bb17",
-      "USB host to USB hub"
     ]
   ],
   "text_variables": {}
