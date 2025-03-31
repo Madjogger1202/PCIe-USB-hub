@@ -9509,6 +9509,28 @@
 			)
 		)
 	)
+	(global_label "_PCIe-RX+"
+		(shape input)
+		(at 60.96 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify right)
+		)
+		(uuid "3d3b2aa2-67e5-4c9e-871c-13ab1ecd874d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.5785 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB-downstream8-RX-"
 		(shape input)
 		(at 111.76 264.16 0)
@@ -9883,6 +9905,28 @@
 			)
 		)
 	)
+	(global_label "_PCIe-RX-"
+		(shape input)
+		(at 60.96 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify right)
+		)
+		(uuid "81b68fb7-f793-4fb6-ae4e-698d72805372")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.5785 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB-downstream9-RX-"
 		(shape input)
 		(at 175.26 125.73 0)
@@ -10182,6 +10226,28 @@
 		(uuid "a53e346d-a872-490b-94d0-3e7bafe1f17b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.3325 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "_PCIe-TX+"
+		(shape input)
+		(at 96.52 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify left)
+		)
+		(uuid "ab15f62a-a800-4385-a123-dd261c9593bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8713 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,6 +10917,28 @@
 			)
 		)
 	)
+	(global_label "_PCIe-TX-"
+		(shape input)
+		(at 96.52 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+			(justify left)
+		)
+		(uuid "e876e583-0ff4-491c-8b04-2712127e0063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8713 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB-downstream7-RX+"
 		(shape input)
 		(at 111.76 224.79 0)
@@ -10964,6 +11052,22 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 128.27 276.098) (xy 128.27 255.27) (xy 120.65 254) (xy 113.03 254) (xy 110.49 256.54) (xy 110.49 276.86)
+				(xy 113.03 279.4) (xy 120.65 279.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2b8dd506-a240-486b-b070-cf126df911fe)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 128.27 234.188) (xy 128.27 213.36) (xy 120.65 212.09) (xy 113.03 212.09) (xy 110.49 214.63)
 				(xy 110.49 234.95) (xy 113.03 237.49) (xy 120.65 237.49)
 			)
@@ -10974,71 +11078,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 03bed74d-a7af-4d73-b809-6fc7ed034691)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 71.12 276.098) (xy 71.12 255.27) (xy 63.5 254) (xy 55.88 254) (xy 53.34 256.54) (xy 53.34 276.86)
-				(xy 55.88 279.4) (xy 63.5 279.4)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 3a0e39c9-d9ef-487a-88fd-0c1f9098cc15)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 71.12 137.668) (xy 71.12 116.84) (xy 63.5 115.57) (xy 55.88 115.57) (xy 53.34 118.11) (xy 53.34 138.43)
-				(xy 55.88 140.97) (xy 63.5 140.97)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 594bc75d-e167-4851-921c-324dbded41c6)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 191.77 137.668) (xy 191.77 116.84) (xy 184.15 115.57) (xy 176.53 115.57) (xy 173.99 118.11)
-				(xy 173.99 138.43) (xy 176.53 140.97) (xy 184.15 140.97)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5ab15685-bc14-49a5-afde-2edcf167c238)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 191.77 179.578) (xy 191.77 158.75) (xy 184.15 157.48) (xy 176.53 157.48) (xy 173.99 160.02)
-				(xy 173.99 180.34) (xy 176.53 182.88) (xy 184.15 182.88)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 74d4853e-d886-4b49-a1aa-71c9bdfaa249)
+			(uuid 4bf57270-3811-4eca-9c7c-83bbd1044f3c)
 		)
 	)
 	(rule_area
@@ -11054,7 +11094,39 @@
 			(fill
 				(type none)
 			)
-			(uuid 9bf28248-b37a-424a-9650-a344b0d03f22)
+			(uuid 56df1a5e-be5f-4f07-8d65-7b4c7a641107)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 71.12 137.668) (xy 71.12 116.84) (xy 63.5 115.57) (xy 55.88 115.57) (xy 53.34 118.11) (xy 53.34 138.43)
+				(xy 55.88 140.97) (xy 63.5 140.97)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5fe962ff-bf4a-48c7-811b-03b7f7b8329d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 71.12 276.098) (xy 71.12 255.27) (xy 63.5 254) (xy 55.88 254) (xy 53.34 256.54) (xy 53.34 276.86)
+				(xy 55.88 279.4) (xy 63.5 279.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 666c0810-7920-4365-a3b5-ca813e36cf03)
 		)
 	)
 	(rule_area
@@ -11070,14 +11142,14 @@
 			(fill
 				(type none)
 			)
-			(uuid a3a838ef-d5ec-4212-9de7-af9f49d5cd98)
+			(uuid b497a70f-925e-4444-88d4-29ec0197fde7)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 71.12 234.188) (xy 71.12 213.36) (xy 63.5 212.09) (xy 55.88 212.09) (xy 53.34 214.63) (xy 53.34 234.95)
-				(xy 55.88 237.49) (xy 63.5 237.49)
+				(xy 191.77 179.578) (xy 191.77 158.75) (xy 184.15 157.48) (xy 176.53 157.48) (xy 173.99 160.02)
+				(xy 173.99 180.34) (xy 176.53 182.88) (xy 184.15 182.88)
 			)
 			(stroke
 				(width 0)
@@ -11086,7 +11158,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a6ef6d87-1681-43cb-9f31-aa1cd1357237)
+			(uuid cca95a40-10e1-4e4c-adcf-4cfbe4309f53)
 		)
 	)
 	(rule_area
@@ -11102,14 +11174,14 @@
 			(fill
 				(type none)
 			)
-			(uuid bf24d948-4080-44e0-bc74-dbc4e1deee66)
+			(uuid d073ce43-405a-4526-a665-5e7845a87dc9)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 128.27 276.098) (xy 128.27 255.27) (xy 120.65 254) (xy 113.03 254) (xy 110.49 256.54) (xy 110.49 276.86)
-				(xy 113.03 279.4) (xy 120.65 279.4)
+				(xy 71.12 234.188) (xy 71.12 213.36) (xy 63.5 212.09) (xy 55.88 212.09) (xy 53.34 214.63) (xy 53.34 234.95)
+				(xy 55.88 237.49) (xy 63.5 237.49)
 			)
 			(stroke
 				(width 0)
@@ -11118,7 +11190,23 @@
 			(fill
 				(type none)
 			)
-			(uuid cb0ccb19-67e8-4c27-8ec6-756c846ef09a)
+			(uuid e003e104-5b37-4750-b410-81bac75cb7be)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 191.77 137.668) (xy 191.77 116.84) (xy 184.15 115.57) (xy 176.53 115.57) (xy 173.99 118.11)
+				(xy 173.99 138.43) (xy 176.53 140.97) (xy 184.15 140.97)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e889c822-9c0d-4fac-aaef-7d7d9a0feaeb)
 		)
 	)
 	(netclass_flag ""

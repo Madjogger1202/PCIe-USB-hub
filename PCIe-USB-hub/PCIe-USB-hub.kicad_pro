@@ -781,6 +781,90 @@
       ],
       "USB-host2_TX-": [
         "USB3"
+      ],
+      "_USB-downstream1-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream1-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream10-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream10-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream2-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream2-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream3-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream3-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream4-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream4-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream5-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream5-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream6-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream6-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream7-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream7-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream8-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream8-TX-": [
+        "USB3"
+      ],
+      "_USB-downstream9-TX+": [
+        "USB3"
+      ],
+      "_USB-downstream9-TX-": [
+        "USB3"
+      ],
+      "_USB-host1_RX+": [
+        "USB3"
+      ],
+      "_USB-host1_RX-": [
+        "USB3"
+      ],
+      "_USB-host1_TX+": [
+        "USB3"
+      ],
+      "_USB-host1_TX-": [
+        "USB3"
+      ],
+      "_USB-host2_RX+": [
+        "USB3"
+      ],
+      "_USB-host2_RX-": [
+        "USB3"
+      ],
+      "_USB-host2_TX+": [
+        "USB3"
+      ],
+      "_USB-host2_TX-": [
+        "USB3"
       ]
     },
     "netclass_patterns": []
